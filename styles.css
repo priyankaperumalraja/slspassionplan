@@ -1,0 +1,177 @@
+body{
+    background-color: #53c8fe;
+}
+h1{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 300%;
+}
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.hair{   
+    display: flex;
+    justify-content: center;
+        position: absolute;
+        top: 89%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 300px;
+        width: 600px;
+        border-radius: 450px 450px 0 0;
+        background-color: rgb(10,0,0);
+}
+.head{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 300px;
+        width: 430px;
+        border-radius: 450px 450px 0 0;
+        background-color: #A96238;
+        
+}
+.eye1{
+    
+        position: absolute;
+        margin-top: 30px;
+
+        margin-right: 150px;
+        height: 100px;
+        width: 100px;
+        box-shadow: 15px 15px 0px 1px black  ;
+        border-radius: 50%;
+        transform: rotate(45deg);
+}
+.eye2{
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 150px;
+        height: 100px;
+        width: 100px;
+        box-shadow: 15px 15px 0px 1px black  ;
+        border-radius: 50%;
+        transform: rotate(45deg);
+}
+.ovals1-1{
+        position: absolute;
+        width: 10%;
+        height: 10%;
+        background: white;
+        border-radius: 50%;
+        margin-left: 20%;
+        margin-top: 15%;
+        transform: rotate(-15deg);
+}
+.ovals1-2{
+    position: absolute;
+    width: 7%;
+    height: 7%;
+    background: white;
+    border-radius: 50%;
+    margin-left: 30%;
+    margin-top: 25%;
+    transform: rotate(-15deg);
+}
+.ovals1-3{
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    background: white;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-top: 35%;
+    transform: rotate(-15deg);
+}
+.ovals2-1{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    background: white;
+    border-radius: 50%;
+    margin-left: -20%;
+    margin-top: 15%;
+    transform: rotate(15deg);
+}
+.ovals2-2{
+position: absolute;
+width: 7%;
+height: 7%;
+background: white;
+border-radius: 50%;
+margin-left: -30%;
+margin-top: 25%;
+transform: rotate(15deg);
+}
+.ovals2-3{
+position: absolute;
+width: 5%;
+height: 5%;
+background: white;
+border-radius: 50%;
+margin-left: -40%;
+margin-top: 35%;
+transform: rotate(15deg);
+}
+
+
+  .container{
+    bottom: 100px;
+  }
+  .cloudone{
+    width: 200%;
+  }
+  .cloudtwo{
+    width: 200%;
+  }
+  .cloudthree{
+    font-family: 'Kanit', sans-serif;
+    width: 200%;
+
+  }
+  #titlepara{
+    font-size: 250%;
+  }
+  .grid-container{
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33%;
+    height: 100vh;
+  }
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .the-why{
+    font-size: 180%;
+  }
+
+  .containerrr {
+    position: relative;
+    text-align: center;
+  }
+  .centered {
+    position: absolute;
+    
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+  }
+  .centered2{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  p{
+    font-size: 30px;
+    width: 40%;
+  }
